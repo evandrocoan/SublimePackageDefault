@@ -1,5 +1,4 @@
-
-# Default.sublime-package (upstream mirror)
+# Default.sublime-package (downstream fork)
 
 I use this repository for versioning some files of the Sublime Text default packages
 `Default.sublime-package` over git using two repositories strategy:
@@ -26,17 +25,27 @@ Related topics about Sublime Text Default Packages:
 1. [SublimeForum$22111](https://forum.sublimetext.com/t/reuse-code-of-the-default-packages/22111) Reuse code of the Default packages
 1. [SublimeForum$14278](https://forum.sublimetext.com/t/looking-for-a-strategy-to-open-source-the-default-packages/14278) ★ Looking for a strategy to Open-Source the Default Packages
 
-Related repositories:
-
-1. https://github.com/twolfson/sublime-files
-
 
 
 # License
 
-Almost all files on this repository are Copyrighted for Jon Skinner @ SUBLIME HQ PTY LTD, and were
-downloaded from https://www.sublimetext.com/3dev and with the following
-https://www.sublimetext.com/eula `End User License Agreement`:
+Most files on this repository are Copyrighted for Jon Skinner @ SUBLIME HQ PTY LTD, and the files on
+this fork are have also included by Evandro Coan. The file `Find Results.hidden-tmLanguage` contains
+content Copyrighted by (c) 2014 Allen Bargi, where its license is included at the end of the file on
+the `Acknowledgements` section.
+
+To see which changes are from SUBLIME HQ PTY LTD or Evandro Coan access the git history at:
+
+1. https://github.com/evandrocoan/SublimeDefault/commits/master
+
+Or clone this repository and run following git client command:
+
+1. `git log`
+1. https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
+
+The files were initially downloaded from https://www.sublimetext.com/3dev and are synced with their
+upstream mirror at https://github.com/evandrocoan/DefaultSublimePackage which has the following `End
+User License Agreement` https://www.sublimetext.com/eula by SUBLIME HQ PTY LTD:
 
 The SOFTWARE PRODUCT (SUBLIME TEXT) is protected by copyright laws and international copyright
 treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is
@@ -93,6 +102,27 @@ licensed, not sold.
     or any part thereof, including but not limited to errors or omissions contained therein, libel,
     trademark rights, business interruption, loss of privacy or the disclosure of confidential
     information.
+
+
+
+# Acknowledgements
+
+Copyright (c) 2014 Allen Bargi (https://twitter.com/aziz)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
