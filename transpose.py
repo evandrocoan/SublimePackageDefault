@@ -28,7 +28,7 @@ def perform_transposition(edit, view, trans, init_sel):
                 view.sel().add(init_sel)
 
 
-def transpose_selections(edit, view, can_transpose_words=False):
+def transpose_selections(edit, view, can_transpose_words=True):
     for sel in view.sel():
         word_sel = view.word(sel)
         word_extents = (wb, we) = (word_sel.begin(), word_sel.end())
