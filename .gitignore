@@ -4,8 +4,8 @@
 
 
 # Ignore everything
-*
-**
+# *
+# **
 
 # Only accept the unchanged files, need to add new files here manually
 !.gitignore
