@@ -14,6 +14,8 @@ class InstallPackageControlCommand(sublime_plugin.ApplicationCommand):
 
     error_prefix = 'Error installing Package Control: '
     filename = 'Package Control.sublime-package'
+    manager_filename = 'PackagesManager.sublime-package'
+
     public_key = (
         'MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkiE2JtDn/IQDfVLso4HRg0BNMHNj'
         '5rpuEIVaX6txyFS0HoBmCgd+9AXKcgKAsBKbEBD6a9nVzLLmJrDVFafepQ==')
@@ -22,10 +24,15 @@ class InstallPackageControlCommand(sublime_plugin.ApplicationCommand):
         threading.Thread(target=self._install).start()
 
     def is_visible(self):
-        ipp_path = os.path.join(sublime.installed_packages_path(), self.filename)
-        p_path = os.path.join(sublime.packages_path(), self.filename.replace('.sublime-package', ''))
+        package_control = not self.exists_packages_manager( self.filename )
+        packagesmanager = not self.exists_packages_manager( self.manager_filename )
+        return package_control and packagesmanager
 
-        return not os.path.exists(ipp_path) and not os.path.exists(p_path)
+    def exists_packages_manager(self, file_name):
+        ipp_path = os.path.join(sublime.installed_packages_path(), file_name)
+        p_path = os.path.join(sublime.packages_path(), file_name.replace('.sublime-package', ''))
+
+        return os.path.exists(ipp_path) or os.path.exists(p_path)
 
     def _install(self):
         """
