@@ -38,7 +38,8 @@
     // Valid options are "no_bold", "no_italic", "no_antialias",
     // "gray_antialias", "subpixel_antialias", "gdi" (Windows only) and
     // "directwrite" (Windows only)
-    "font_options": [],
+    "font_options": ["gdi"],
+
     // Font options for theme text. Valid options are: "no_antialias",
     // "gray_antialias", "gdi" (Windows only) and "directwrite" (Windows only)
     "theme_font_options": [],
