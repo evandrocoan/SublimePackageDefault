@@ -846,7 +846,11 @@
             },
             { "caption": "-" },
             {
-                "command": "platform_edit_settings",
+                "command": "edit_settings", "args":
+                {
+                    "base_file": "${packages}/Default/Default ($platform).sublime-keymap",
+                    "default": "[\n\t$0\n]\n"
+                },
                 "caption": "Key Bindings"
             },
             { "caption": "-" },
