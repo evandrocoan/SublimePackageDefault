@@ -44,10 +44,14 @@ How to add/remove a default menu entry when a X package is/isn’t enabled/insta
 
 # License
 
-Most files on this repository are Copyrighted for Jon Skinner @ SUBLIME HQ PTY LTD, and the files on
-this fork are have also included by Evandro Coan. The file `Find Results.hidden-tmLanguage` contains
-content Copyrighted by (c) 2014 Allen Bargi, where its license is included at the end of the file on
-the `Acknowledgements` section.
+Most files on this repository are Copyrighted for Jon Skinner @ SUBLIME HQ PTY LTD,
+and the files on this fork are also modified by Evandro Coan.
+
+The changes introduced by Evandro Coan are licensed under MIT license included at the end of the file on the `Acknowledgements`,
+and Jon Skinner @ SUBLIME HQ PTY LTD is welcome to incorporate these changes back into Sublime Text main distribution.
+
+The file `Find Results.hidden-tmLanguage` contains content Copyrighted by (c) 2014 Allen Bargi,
+where its license is included at the end of the file on the `Acknowledgements` section.
 
 To see which changes are from SUBLIME HQ PTY LTD or Evandro Coan access the git history at:
 
@@ -123,7 +127,7 @@ licensed, not sold.
 # Acknowledgements
 
 Copyright (c) 2014 Allen Bargi (https://twitter.com/aziz)
-
+```
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
 associated documentation files (the "Software"), to deal in the Software without restriction,
 including without limitation the rights to use, copy, modify, merge, publish, distribute,
@@ -138,6 +142,23 @@ NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPO
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
 OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
+Copyright (C) 2018 Evandro Coan <https://github.com/evandrocoan>
+```
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
