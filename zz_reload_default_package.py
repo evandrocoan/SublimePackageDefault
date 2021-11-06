@@ -224,6 +224,13 @@ def create_settings_loader():
 
     if not compare_text_with_file(notice_code, README_PACKAGE_FILE):
 
+        with open( os.path.join( SETTINGS_PACKAGE_DIRECTORY, '.python-version' ), 'w', newline='\n', encoding='utf-8' ) as output_file:
+            output_file.write( '3.8' )
+
+        with open( os.path.join( SETTINGS_PACKAGE_DIRECTORY, 'loading.py' ), 'w', newline='\n', encoding='utf-8' ) as output_file:
+            output_file.write( 'import sys\n' )
+            output_file.write( '# dummy file just to confirmed when this package is loaded by Sublime Text\n' )
+
         with open( README_PACKAGE_FILE, 'w', newline='\n', encoding='utf-8' ) as output_file:
             print( "[zz_reload_default_package.py] Updating the documentation file: %s" % README_PACKAGE_FILE )
             output_file.write( notice_code )
