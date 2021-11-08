@@ -53,6 +53,19 @@
 
 	{ "keys": ["enter"], "command": "select", "context":
 		[
+			{ "key": "panel_has_focus", "operator": "equal", "operand": true },
+			{ "key": "panel_type", "operand": "input"},
+		],
+	},
+	{ "keys": ["keypad_enter"], "command": "select", "context":
+		[
+			{ "key": "panel_has_focus", "operator": "equal", "operand": true },
+			{ "key": "panel_type", "operand": "input"},
+		],
+	},
+
+	{ "keys": ["enter"], "command": "select", "context":
+		[
 			{ "key": "overlay_has_focus", "operator": "equal", "operand": true },
 			{ "key": "overlay_name", "operator": "equal", "operand" : "goto" }
 		],
@@ -870,20 +883,6 @@
 	{ "keys": ["alt+a"], "command": "toggle_preserve_case", "context":
 		[{"key": "panel_type", "operand": "find"}, {"key": "panel_has_focus"}],
 	},
-	
-	{ "keys": ["enter"], "command": "select", "context":
-		[
-			{ "key": "panel_has_focus", "operator": "equal", "operand": true },
-			{ "key": "panel_type", "operand": "input"},
-		],
-	},
-	{ "keys": ["keypad_enter"], "command": "select", "context":
-		[
-			{ "key": "panel_has_focus", "operator": "equal", "operand": true },
-			{ "key": "panel_type", "operand": "input"},
-		],
-	},
-
 
 	// Find panel key bindings
 	{ "keys": ["keypad_enter"], "command": "find_next", "context":
