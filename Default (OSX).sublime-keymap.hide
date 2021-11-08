@@ -1137,24 +1137,24 @@
 	{ "keys": ["end"], "command": "move_to", "args": {"to": "eol", "extend": true}, "context":
 		[ { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false } ] },
 
-	{ "keys": ["shift+keypad7"], "command": "move_to", "args": {"to": "bol", "extend": true}, "context":
+	{ "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true}, "context":
 		[ { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false } ] },
-	{ "keys": ["shift+keypad7"], "command": "move_to", "args": {"to": "bol", "extend": false}, "context":
+	{ "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": false}, "context":
 		[ { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": false } ] },
 
-	{ "keys": ["shift+keypad1"], "command": "move_to", "args": {"to": "eol", "extend": true}, "context":
+	{ "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true}, "context":
 		[ { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false } ] },
-	{ "keys": ["shift+keypad1"], "command": "move_to", "args": {"to": "eol", "extend": false}, "context":
+	{ "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": false}, "context":
 		[ { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": false } ] },
 
-	{ "keys": ["ctrl+shift+keypad7"], "command": "move_to", "args": {"to": "bof", "extend": true}, "context":
+	{ "keys": ["ctrl+shift+home"], "command": "move_to", "args": {"to": "bof", "extend": true}, "context":
 		[ { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false } ] },
-	{ "keys": ["ctrl+shift+keypad7"], "command": "move_to", "args": {"to": "bof", "extend": false}, "context":
+	{ "keys": ["ctrl+shift+home"], "command": "move_to", "args": {"to": "bof", "extend": false}, "context":
 		[ { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": false } ] },
 
-	{ "keys": ["ctrl+shift+keypad1"], "command": "move_to", "args": {"to": "eof", "extend": true}, "context":
+	{ "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true}, "context":
 		[ { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false } ] },
-	{ "keys": ["ctrl+shift+keypad1"], "command": "move_to", "args": {"to": "eof", "extend": false}, "context":
+	{ "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": false}, "context":
 		[ { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": false } ] },
 
 	{ "keys": ["ctrl+home"], "command": "move_to", "args": {"to": "bof", "extend": true}, "context":
