@@ -333,8 +333,8 @@
 
 	{ "keys": ["alt+."], "command": "close_tag" },
 
-	{ "keys": ["ctrl+alt+q"], "command": "toggle_record_macro" },
-	{ "keys": ["ctrl+alt+shift+q"], "command": "run_macro" },
+	{ "keys": ["ctrl+q", "ctrl+r"], "command": "toggle_record_macro" },
+	{ "keys": ["ctrl+q", "ctrl+e"], "command": "run_macro" },
 
 	{ "keys": ["ctrl+keypad_enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"}, "context":
 		[
