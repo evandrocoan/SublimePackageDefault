@@ -42,8 +42,8 @@
 	{ "keys": ["undo"], "command": "undo" },
 	{ "keys": ["ctrl+z"], "command": "undo" },
 	{ "keys": ["ctrl+shift+z"], "command": "redo" },
-	{ "keys": ["redo"], "command": "redo_or_repeat" },
-	{ "keys": ["ctrl+y"], "command": "redo_or_repeat" },
+	{ "keys": ["redo"], "command": "redo" },
+	{ "keys": ["ctrl+y"], "command": "redo" },
 	{ "keys": ["ctrl+u"], "command": "soft_undo" },
 	{ "keys": ["ctrl+shift+u"], "command": "soft_redo" },
 
