@@ -72,7 +72,12 @@ class JumpHistory():
         If we push a selection into history while current item is not pointing
         to head, anything before the current item is erased
         """
-        region_list = list(view.sel())
+        # Avoid recording a huge selection list, which degrades performance.
+        selections = view.sel()
+        if len(selections) <= 10000:
+            region_list = list(selections)
+        else:
+            region_list = [selections[0]]
 
         if region_list == []:
             return

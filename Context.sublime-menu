@@ -39,5 +39,7 @@
 	{ "command": "synced_side_bar_reveal_in_side_bar", "caption": "Reveal in Side Bar" },
 	{ "command": "open_in_browser", "caption": "Open in Browser" },
 	{ "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Open Containing Folder…" },
+	{ "command": "open_terminal", "args": {"dir": "$file_path"}, "caption": "Open Terminal Here…" },
+	{ "command": "force_reopen_as", "args": {"type": "image"}, "caption": "Reopen File as Image" },
 	{ "caption": "-", "id": "end" }
 ]

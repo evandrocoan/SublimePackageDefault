@@ -13,6 +13,8 @@
         	{ "caption": "New File", "command": "new_file_at", "args": {"dirs": []} },
         	{ "caption": "Open Folder…", "command": "open_folder", "args": {"dirs": []} },
         	{ "caption": "Open Containing Folder…", "command": "open_containing_folder", "args": {"files": []} },
+            { "caption": "Open Terminal Here…", "command": "open_terminal", "args": {"dirs": []} },
+            { "caption": "Copy Path", "command": "copy_path_sidebar", "args": {"paths": []} },
             { "caption": "-", "id": "3_irow" },
             { "caption": "Open Git Repository…", "command": "sublime_merge_open_repo", "args": {"paths": []}},
             { "caption": "File History…", "command": "sublime_merge_file_history", "args": {"files": []}},

@@ -6,7 +6,7 @@
     { "command": "new_file", "caption": "New File" },
     { "command": "prompt_open_file", "caption": "Open File" },
     { "command": "clone_file", "caption": "Clone This View" },
-	{ "command": "clone_file", "args": { "add_to_selection": true, "group": -1, "index": -1 }, "caption": "Split View" },
+	{ "command": "clone_file", "args": { "add_to_selection": true, "group": -1, "index": -1, "retain_viewport_position": true }, "caption": "Split View" },
 
     { "caption": "-", "id": "3_row" },
     { "caption": "-", "id": "4_row" },
