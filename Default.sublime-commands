@@ -88,7 +88,7 @@
     { "caption": "File: Clone View (New View into File)", "command": "clone_file" },
 
 	{ "caption": "Install Package Control", "command": "install_package_control_extended" },
-	{ "caption": "Enable PackagesManager", "command": "enable_packages_manager" },
+	{ "caption": "Enable Package Control / PackagesManager", "command": "enable_package_control_extended" },
 
 	{ "caption": "UI: Select Color Scheme", "command": "select_color_scheme" },
 	{ "caption": "UI: Select Theme", "command": "select_theme" },
