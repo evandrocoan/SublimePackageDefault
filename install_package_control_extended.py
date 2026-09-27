@@ -24,3 +24,20 @@ class InstallPackageControlExtendedCommand(sublime_plugin.ApplicationCommand):
 
         return os.path.exists(installed_packages_path) or os.path.exists(loose_packages_path)
 
+
+class EnablePackagesManagerCommand(sublime_plugin.ApplicationCommand):
+    package_name = 'PackagesManager'
+    preferences_file = 'Preferences.sublime-settings'
+
+    def is_visible(self):
+        settings = sublime.load_settings(self.preferences_file)
+        return self.package_name in settings.get('ignored_packages', [])
+
+    def run(self):
+        settings = sublime.load_settings(self.preferences_file)
+        ignored_packages = settings.get('ignored_packages', [])
+        settings.set('ignored_packages', [
+            package for package in ignored_packages if package != self.package_name
+        ])
+        sublime.save_settings(self.preferences_file)
+

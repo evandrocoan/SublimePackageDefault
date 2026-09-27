@@ -872,6 +872,7 @@
 				]
 			},
 			{ "command": "install_package_control_extended", "caption": "Install Package Control…" },
+			{ "command": "enable_packages_manager", "caption": "Enable PackagesManager" },
 			{ "caption": "-", "id": "end" }
 		]
 	},
