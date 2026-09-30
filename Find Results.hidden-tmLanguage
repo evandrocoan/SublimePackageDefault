@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Source: Packages/BetterFindBuffer/Find Results.hidden-tmLanguage
+
+	BetterFindBuffer's find_results.py copies this file over
+	Packages/Default/Find Results.hidden-tmLanguage whenever the plugin loads,
+	so edit the BetterFindBuffer file; edits made only to the Default copy are lost.
+
+	It is BetterFindBuffer's Find Results syntax plus the "skipped characters"
+	rule from the Default package of Sublime Text build 4213. When the Default
+	package is updated for a newer build, merge its Find Results changes here.
+-->
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
