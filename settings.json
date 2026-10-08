@@ -1,18 +1,102 @@
 {
     "tags": [
-        "3144",
-        "3147",
-        "3148",
-        "3151",
-        "3154",
-        "3161",
-        "3181",
-        "3200",
-        "3211",
-        "3207",
-        "3999",
-        "4113",
-        "4121",
-        "4122"
+        {
+            "ref": "st-build-3144",
+            "sublime_text": "<=3144",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3147",
+            "sublime_text": "3145 - 3147",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3148",
+            "sublime_text": "3148 - 3148",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3151",
+            "sublime_text": "3149 - 3151",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3154",
+            "sublime_text": "3152 - 3154",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3161",
+            "sublime_text": "3155 - 3161",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3181",
+            "sublime_text": "3162 - 3181",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3200",
+            "sublime_text": "3182 - 3200",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3211",
+            "sublime_text": "3208 - 3211",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3207",
+            "sublime_text": "3201 - 3207",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-3999",
+            "sublime_text": "3212 - 3999",
+            "python_versions": [
+                "3.3"
+            ]
+        },
+        {
+            "ref": "st-build-4113",
+            "sublime_text": "4000 - 4113",
+            "python_versions": [
+                "3.8"
+            ]
+        },
+        {
+            "ref": "st-build-4121",
+            "sublime_text": "4114 - 4121",
+            "python_versions": [
+                "3.8"
+            ]
+        },
+        {
+            "ref": "st-build-4122",
+            "sublime_text": "4122 - 4122",
+            "python_versions": [
+                "3.8"
+            ]
+        }
     ]
 }
